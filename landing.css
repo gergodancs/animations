@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    animation: szoveg;
+    text-align: center;
+    margin-top: 13rem;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    
+}
+@keyframes szoveg {
+    0% {opacity: 0;}
+    100% {opacity: 1; }
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    animation: szoveg2;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    
+}
+@keyframes szoveg2 {
+    0% {opacity: 0;}
+    100% {opacity: 1;   }
+}

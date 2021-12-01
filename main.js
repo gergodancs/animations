@@ -1,4 +1,7 @@
-$(window).on("load",function(){
-    $(".animation").fadeOut("slow");
-});
+function newPage() {
+    setTimeout(function() {
+        window.location.href = 'landing.html';
+    }, 10000);
+}
 
+window.addEventListener("load", newPage);
