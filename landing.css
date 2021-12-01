@@ -14,7 +14,8 @@ h1 {
     text-shadow: 0px 5px 4px red, 0 0 5px red ;
     text-align: center;
     font-size: 1rem;
-    margin-top: 16rem;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
     animation-duration: 12s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
@@ -77,3 +78,4 @@ p {
       transform: rotateY(-360deg);
     }
   }
+  

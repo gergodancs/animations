@@ -1,11 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    width: auto;
-    
-   
-    height: 100vh;
-    
+    width: auto;   
+    height: 100vh;   
 }
 .vonal {
     width: 100%;
@@ -21,9 +18,7 @@ body {
     0% {
         background-color: rgb(157, 184, 184); top: 50%;
         width: 0px;
-    }
-    
-    
+    }    
     100% {
         background-color: rgb(28, 128, 128); top: 50%;
         width: 100%;
@@ -39,14 +34,15 @@ body {
     }
 }
 p {
-    color: rgb(157, 184, 184);
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
+    color: rgb(157, 184, 184);
     animation-name: pe;
     animation-duration: 10s;
     opacity: 0;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 @keyframes pe {
     0% {
@@ -55,9 +51,10 @@ p {
     }
     50% {
         opacity: 1;
+        font-size: 35px;
     }
     100% {
-        font-size: 50px;
+      
         text-align: center;
         opacity: 0;
     }
@@ -70,8 +67,6 @@ p {
     height: 240px;
     animation: spin 8s linear;
     opacity: 0;
-    
-    
 
    
   }
@@ -123,4 +118,7 @@ img {
     height: 100vh;
     animation-name: kezdo;   
 }
+
+
+
 
