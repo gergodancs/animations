@@ -8,26 +8,43 @@ h1 {
     color: white;
     animation: szoveg;
     text-align: center;
-    margin-top: 13rem;
+    font-size: 8rem;
+    margin-top: 16rem;
     animation-duration: 5s;
     animation-iteration-count: 1;
     
 }
+
 @keyframes szoveg {
-    0% {opacity: 0;}
-    100% {opacity: 1; }
+    0% {opacity: 0; }
+    100% {opacity: 1;}
 }
+
 p {
     color: white;
     text-align: center;
-    font-size: 1.5rem;
     font-style: italic;
-    animation: szoveg2;
+    font-size: 6rem;
+    animation: szoveg1;
     animation-duration: 8s;
     animation-iteration-count: 1;
-    
+}    
+
+#summer {
+    color: rgb(223, 14, 14);
+    text-align: center;
+    font-style: italic;
+    font-size: 8rem;
+    animation: szoveg2;
+    animation-duration: 13s;
+    animation-iteration-count: 1;
 }
-@keyframes szoveg2 {
+@keyframes szoveg1 {
     0% {opacity: 0;}
-    100% {opacity: 1;   }
+    100% {opacity: 1; }
+}
+
+@keyframes szoveg2 {
+    0% {opacity: 0; }
+    100% {opacity: 1; }
 }
