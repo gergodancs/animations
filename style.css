@@ -2,7 +2,9 @@ body {
     margin: 0;
     padding: 0;
     width: auto;
-    background-color: black;
+    
+   
+    height: 100vh;
     
 }
 .vonal {
@@ -68,9 +70,7 @@ p {
     height: 240px;
     animation: spin 8s linear;
     opacity: 0;
-    position: absolute;
-    top: 8%;
-    left: 42.5%;
+    
     
 
    
@@ -82,9 +82,10 @@ p {
     100% { transform: rotate(1440deg); opacity: 0;}
   }
   
-  section {
+  .andi {
+ 
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -108,4 +109,27 @@ img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+}
+.feri { 
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.animation {
+    background-color: rgb(7, 7, 7);
+    width: auto;
+    height: 100vh;
+    animation-name: kezdo;
+    
+    
+    
+}
+
+@keyframe kezdo {
+    0% { background-color:rgb(7, 7, 7);}
+   
+    100% { background-color: #fff;}
+    
 }
