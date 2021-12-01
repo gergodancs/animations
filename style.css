@@ -82,3 +82,30 @@ p {
     100% { transform: rotate(1440deg); opacity: 0;}
   }
   
+  section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader2 {
+    border: 16px solid #2979ff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin2 8000ms linear;
+    opacity: 0;
+} 
+
+@keyframes spin2 {
+    0% { transform: rotate(0deg); opacity: 0;}
+    50% {opacity: 1;}
+    100% { transform: rotate(720deg); opacity: 0;}
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
